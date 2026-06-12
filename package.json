@@ -20,4 +20,7 @@
     "firebase-tools": "^7.14.0",
     "terser": "^4.6.6"
   }
+  "scripts": {
+  "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+  }
 }
